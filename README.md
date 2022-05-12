@@ -50,6 +50,7 @@ above mentioned payload.
 
 1. The docker compose will spin up the following services:
 
+    - mysql
     - zookeeper
     - kafka
     - kafka-ui
