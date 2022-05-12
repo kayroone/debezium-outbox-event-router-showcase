@@ -81,8 +81,8 @@ above mentioned payload.
         }
 ```
 
-Here we use the MySqlConnector from Debezium to catch database events from a MySql database. Also we use an Outbox 
-EventRouter provided by Debezium. This EventRouter will create a custom topics based on the aggregatetype we defined 
+Here we use the MySqlConnector from Debezium to catch database events from our MySql database. Also we use an Outbox 
+EventRouter provided by Debezium. This EventRouter will create custom topics based on the aggregatetype we defined 
 above in our INSERT statements. The naming notation for the topics created by Debezium are:
 
 ```shell
